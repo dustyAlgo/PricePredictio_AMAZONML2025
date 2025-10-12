@@ -1,0 +1,89 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+*.ipynb.tmp
+
+# ---- Virtual Environment ----
+venv/
+env/
+.mlenv/
+.mlenv/*
+.mlenv_backup/
+.mlenv_env/
+.mlenv_cache/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+.spyproject/
+*.sublime-project
+*.sublime-workspace
+
+# ---- Data / Outputs ----
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.json
+*.zip
+*.gz
+*.pkl
+*.h5
+*.npy
+*.npz
+*.parquet
+*.feather
+
+# ---- Model Artifacts ----
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.sav
+*.model
+*.bin
+
+# ---- Logs / Reports ----
+logs/
+wandb/
+mlruns/
+tensorboard/
+lightgbm*.txt
+catboost_info/
+*.out
+*.err
+
+# ---- Temporary / Cache ----
+__cache__/
+.cache/
+tmp/
+temp/
+outputs/
+results/
+submission*.csv
+baseline_submission.csv
+
+# ---- OS / System ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
